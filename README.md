@@ -17,6 +17,7 @@ Leave-one-out cross-validation: the linear model predicts unseen points better (
 
 ## How to run
 ```
+conda env create -f environment.yml
 conda activate aero
 python step1_explore.py
 python step2_scipy_fit.py

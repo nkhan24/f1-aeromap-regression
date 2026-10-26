@@ -1,0 +1,8 @@
+name: aero
+dependencies:
+  - python=3.12
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - pytest
