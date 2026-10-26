@@ -14,6 +14,7 @@ Changing the static ride height at one end of the car also moved the dynamic rid
 Leave-one-out cross-validation: the linear model predicts unseen points better (front 4.6 N error) than a quadratic model (6.2 N), so the linear model is kept.
 
 ![Residuals](results/residuals.png)
+Residuals against each ride height. The rear axle residuals arch against rear ride height, so the true relationship curves slightly; cross-validation shows 15 points are not enough to model that curve reliably.
 
 ## How to run
 ```
